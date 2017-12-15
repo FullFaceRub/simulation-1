@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background: whitesmoke;
+    height: 100vh;
+    width: 100%;
 }
 
 .mainheader {

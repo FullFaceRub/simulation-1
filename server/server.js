@@ -1,4 +1,5 @@
 const express = require('express');
+//76F
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = new express();
@@ -15,6 +16,7 @@ app.use(bodyParser.json());
 // app.delete('/api/bin/:id',controller.delete)
 
 //***********************************************/
+//70C,
 massive(process.env.CONNECTION_STRING).then(db=> {
     app.set('db', db);
     app.listen(port, ()=>{
